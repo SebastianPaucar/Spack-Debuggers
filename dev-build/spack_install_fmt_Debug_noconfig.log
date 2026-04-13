@@ -1,0 +1,22 @@
+nohup: ignoring input
+[+] /usr (external glibc-2.28-vuczjrbyzfif5nzgt5gqbrdrzaioihy6)
+[+] /usr (external gcc-8.5.0-nvz3npss3zf3awapnzs3yimbotisgmvr)
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/compiler-wrapper-1.0-7ixievny4roxtflayougfucpbfgq56f6
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gcc-runtime-8.5.0-3auvpedy3npd7xp43dr3dmvz3azmmpdf
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/ncurses-6.6-4jvzbzy6vgqxl26a7we3nj3igumdzy7o
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/nghttp2-1.67.1-xkkd5mo5uhifjon6jhcx3ls35skni5er
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/zlib-ng-2.3.3-5ydzxxipjtt2xwcj5smxwiyj2mszwfc3
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/openssl-3.6.1-kfnmztp6u4snh33q5xutc7wj4xve2gts
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/curl-8.18.0-tbbhe4v3rijk6klz2ep4y4ppcmldlyfc
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis
+==> No binary for fmt-12.1.0-ds5k4qopyg3nrexsdz4utbhht5hkj56f found: installing from source
+==> Using cached archive: /scratch/general/vast/u6059911/spack/var/spack/cache/_source-cache/archive/69/695fd197fa5aff8fc67b5f2bbc110490a875cdf7a41686ac8512fb480fa8ada7.zip
+==> No patches needed for fmt
+==> fmt: Executing phase: 'cmake'
+==> fmt: Executing phase: 'build'
+==> fmt: Executing phase: 'install'
+==> fmt: Successfully installed fmt-12.1.0-ds5k4qopyg3nrexsdz4utbhht5hkj56f
+  Stage: 0.13s.  Cmake: 2.34s.  Build: 3.87s.  Install: 0.58s.  Post-install: 0.32s.  Total: 7.68s
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-ds5k4qopyg3nrexsdz4utbhht5hkj56f
+==> Installing fmt-12.1.0-ds5k4qopyg3nrexsdz4utbhht5hkj56f [12/12]

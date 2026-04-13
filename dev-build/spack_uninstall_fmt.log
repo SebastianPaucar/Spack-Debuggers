@@ -1,0 +1,2 @@
+nohup: ignoring input
+==> Successfully uninstalled fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Debug cxxstd=11 generator=make platform=linux os=rocky8 target=skylake_avx512/ds5k4qo

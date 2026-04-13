@@ -1,0 +1,108 @@
+nohup: ignoring input
+[+] /usr (external glibc-2.28-vuczjrbyzfif5nzgt5gqbrdrzaioihy6)
+[+] /usr (external gcc-8.5.0-nvz3npss3zf3awapnzs3yimbotisgmvr)
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/compiler-wrapper-1.0-7ixievny4roxtflayougfucpbfgq56f6
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gcc-runtime-8.5.0-3auvpedy3npd7xp43dr3dmvz3azmmpdf
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/nghttp2-1.67.1-xkkd5mo5uhifjon6jhcx3ls35skni5er
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/ncurses-6.6-4jvzbzy6vgqxl26a7we3nj3igumdzy7o
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/zlib-ng-2.3.3-5ydzxxipjtt2xwcj5smxwiyj2mszwfc3
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/openssl-3.6.1-kfnmztp6u4snh33q5xutc7wj4xve2gts
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/curl-8.18.0-tbbhe4v3rijk6klz2ep4y4ppcmldlyfc
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis
+==> No binary for fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc found: installing from source
+==> No patches needed for fmt
+==> fmt: Executing phase: 'cmake'
+==> [2026-04-11-14:58:02.003260] '/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib;/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64' '-DCMAKE_PREFIX_PATH:STRING=/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis;/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/compiler-wrapper-1.0-7ixievny4roxtflayougfucpbfgq56f6;/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gcc-runtime-8.5.0-3auvpedy3npd7xp43dr3dmvz3azmmpdf;/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7' '-DCMAKE_BUILD_TYPE:STRING=Debug' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW' '-DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF' '-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON' '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=ON' '-DCMAKE_CXX_STANDARD=11' '-DCMAKE_CXX_STANDARD_REQUIRED=ON' '-DFMT_DOC=OFF' '-DFMT_TEST:BOOL=OFF' '/scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt'
+-- CMake version: 3.31.11
+-- The CXX compiler identification is GNU 8.5.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/compiler-wrapper-1.0-7ixievny4roxtflayougfucpbfgq56f6/libexec/spack/gcc/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- {fmt} version: 12.1.0
+-- Build type: Debug
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_FIND_USE_PACKAGE_REGISTRY
+    CMAKE_POLICY_DEFAULT_CMP0090
+
+
+-- Build files have been written to: /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh
+==> fmt: Executing phase: 'build'
+==> [2026-04-11-14:58:03.303240] '/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make' '-j16'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -S/scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt -B/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh --check-build-system CMakeFiles/Makefile.cmake 0
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_progress_start /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh/CMakeFiles /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh//CMakeFiles/progress.marks
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/fmt.dir/build.make CMakeFiles/fmt.dir/depend
+make[2]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+cd /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh && /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_depends "Unix Makefiles" /scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt /scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh/CMakeFiles/fmt.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/fmt.dir/build.make CMakeFiles/fmt.dir/build
+make[2]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+[ 33%] Building CXX object CMakeFiles/fmt.dir/src/format.cc.o
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/compiler-wrapper-1.0-7ixievny4roxtflayougfucpbfgq56f6/libexec/spack/gcc/g++  -I/scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt/include -g -std=gnu++11 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT CMakeFiles/fmt.dir/src/format.cc.o -MF CMakeFiles/fmt.dir/src/format.cc.o.d -o CMakeFiles/fmt.dir/src/format.cc.o -c /scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt/src/format.cc
+[ 66%] Building CXX object CMakeFiles/fmt.dir/src/os.cc.o
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/compiler-wrapper-1.0-7ixievny4roxtflayougfucpbfgq56f6/libexec/spack/gcc/g++  -I/scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt/include -g -std=gnu++11 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT CMakeFiles/fmt.dir/src/os.cc.o -MF CMakeFiles/fmt.dir/src/os.cc.o.d -o CMakeFiles/fmt.dir/src/os.cc.o -c /scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt/src/os.cc
+[100%] Linking CXX static library libfmtd.a
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -P CMakeFiles/fmt.dir/cmake_clean_target.cmake
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_link_script CMakeFiles/fmt.dir/link.txt --verbose=1
+/usr/bin/ar qc libfmtd.a CMakeFiles/fmt.dir/src/format.cc.o CMakeFiles/fmt.dir/src/os.cc.o
+/usr/bin/ranlib libfmtd.a
+make[2]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+[100%] Built target fmt
+make[1]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_progress_start /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh/CMakeFiles 0
+==> fmt: Executing phase: 'install'
+==> [2026-04-11-14:58:06.468384] '/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make' '-j16' 'install'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -S/scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt -B/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh --check-build-system CMakeFiles/Makefile.cmake 0
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_progress_start /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh/CMakeFiles /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh//CMakeFiles/progress.marks
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/fmt.dir/build.make CMakeFiles/fmt.dir/depend
+make[2]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+cd /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh && /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_depends "Unix Makefiles" /scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt /scratch/general/vast/u6059911/gsoc/gsoc_spack/fmt /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh/CMakeFiles/fmt.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/fmt.dir/build.make CMakeFiles/fmt.dir/build
+make[2]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+make[2]: Nothing to be done for 'CMakeFiles/fmt.dir/build'.
+make[2]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+[100%] Built target fmt
+make[1]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -E cmake_progress_start /tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh/CMakeFiles 0
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/gmake-4.4.1-fwmpqge6ptk7dvn4fdufqpb67isvixe7/bin/make  -f CMakeFiles/Makefile2 preinstall
+make[1]: Entering directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+make[1]: Nothing to be done for 'preinstall'.
+make[1]: Leaving directory '/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/spack-build-dqaxtnh'
+Install the project...
+/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/cmake-3.31.11-bhpvsgg6cco2iknt6vbupqngrcfrowis/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64/libfmtd.a
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/args.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/base.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/chrono.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/color.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/compile.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/core.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/format.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/format-inl.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/os.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/ostream.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/printf.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/ranges.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/std.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/include/fmt/xchar.h
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64/cmake/fmt/fmt-config.cmake
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64/cmake/fmt/fmt-config-version.cmake
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64/cmake/fmt/fmt-targets.cmake
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64/cmake/fmt/fmt-targets-debug.cmake
+-- Installing: /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc/lib64/pkgconfig/fmt.pc
+==> fmt: Successfully installed fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc
+  Stage: 0.00s.  Cmake: 1.26s.  Build: 3.13s.  Install: 1.05s.  Post-install: 0.25s.  Total: 5.97s
+[+] /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc
+==> Installing fmt-12.1.0-dqaxtnhxjvbec63xny233wl2a2xgzrkc [12/12]
