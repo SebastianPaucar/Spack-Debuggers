@@ -12,7 +12,7 @@ Let's attempt to run `spack develop`:
       spack -e ENV develop ...
 ```
 
-We see `spack develop` is not a standalone build command. 
+We see `spack develop` is not a standalone build command. It is an **environment-scoped operation**. Let's see it:
 
 ```bash
 (base) [u6059911@notchpeak1:gsoc_spack]$ spack env create fmt_env
@@ -23,6 +23,8 @@ We see `spack develop` is not a standalone build command.
 ==> Cloning source code for fmt@=12.1.0
 ==> Using cached archive: /scratch/general/vast/u6059911/spack/var/spack/cache/_source-cache/archive/69/695fd197fa5aff8fc67b5f2bbc110490a875cdf7a41686ac8512fb480fa8ada7.zip
 ```
+
+Note that `spack develop` uses a cached archive inside `/scratch/general/vast/u6059911/spack/var/spack/cache/_source-cache/` to clone the package source tree. We find `/scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env` is the `fmt_env` environment path:
 
 ```bash
 (base) [u6059911@notchpeak1:gsoc_spack]$ cd /scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env
@@ -44,6 +46,8 @@ spack:
       spec: fmt@=12.1.0
 ```
 
+Note that one can modify the environment configuration (`spack.yaml`) by adding a `develop:` entry. Since `spack develop` binds a package to a persistent source tree inside the environment, it enables stable source paths and reproducible debugging setups accross builds. This means all `develop` workflows must begin from an active environment context:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack find -lv fmt
 ==> Error: No package matches the query: fmt
@@ -54,6 +58,12 @@ spack:
 ==> Using spack.yaml in current directory: /scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env
 ```
 
+From the `spack find -lv fmt` output, we see `develop` does not imply installation, even though `fmt` appears under `develop:` in `spack.yaml`. `specs: []` means the `fmt_env` does not request any packages to be installed. The `spec: fmt@=12.1.0` entry under `develop:` declares the usage of the `fmt` local source tree instead of fetching from a tarball (it does NOT introduce `fmt` into the dependecy graph). `spack env status` indicates the active environment.
+
+> Spack`s envirionment model insight: `specs` defines what is installed; `develop` defines where the source comes from.
+
+We can verify that `$SPACK_ROOT/var/spack/environments/` contains the full list of Spack environments:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ echo $SPACK_ROOT 
 /scratch/general/vast/u6059911/spack
@@ -61,12 +71,16 @@ spack:
 fmt_env
 ```
 
+Attempting `install` with no `specs` defined yet in `spack.yaml`: 
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack install 
 ==> fmt_env environment has no specs to install
 (base) [u6059911@notchpeak1:fmt_env]$ spack location -i fmt
 ==> Error: Spec 'fmt' matches no installed packages.
 ```
+
+We verify that Spack only installs packages that appear in the `specs` list (the root of the dependency graph). Note that the `spack location -i fmt` output suggests there is no previus `fmt` installation, which is not true (there is already a normal build `fmt` installation based on `spack install`). Let's do this:
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack env deactivate
@@ -79,6 +93,12 @@ ds5k4qo fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Debug cxxstd=11 
 (base) [u6059911@notchpeak1:fmt_env]$ spack location -i /ds5k4qo
 /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-ds5k4qopyg3nrexsdz4utbhht5hkj56f
 ```
+
+We found a key property of Spack: installed packages are global (per Spack instance), while environments only define views over them. When an environment is active, Spack operates in environment scope, meaning:
+
+* Only packages in the environment’s concretized DAG are visible
+* Queries like spack find are filtered to the environment
+
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack env activate fmt_env
