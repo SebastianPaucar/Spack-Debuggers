@@ -1,3 +1,7 @@
+# Spack staging and Debugging model with `spack develop` 
+
+Let's attempt to run `spack develop`:
+
 ```bash
 (base) [u6059911@notchpeak1:~]$ cd /scratch/general/vast/u6059911/gsoc/gsoc_spack/
 (base) [u6059911@notchpeak1:gsoc_spack]$ spack develop fmt@12.1.0
@@ -7,6 +11,8 @@
   or use:
       spack -e ENV develop ...
 ```
+
+We see `spack develop` is not a standalone build command. 
 
 ```bash
 (base) [u6059911@notchpeak1:gsoc_spack]$ spack env create fmt_env
@@ -56,7 +62,7 @@ fmt_env
 ```
 
 ```bash
-(base) [u6059911@notchpeak1:fmt_env]$ spack install
+(base) [u6059911@notchpeak1:fmt_env]$ spack install 
 ==> fmt_env environment has no specs to install
 (base) [u6059911@notchpeak1:fmt_env]$ spack location -i fmt
 ==> Error: Spec 'fmt' matches no installed packages.
@@ -93,7 +99,7 @@ spack:
   develop:
     fmt:
       spec: fmt@=12.1.0
-(base) [u6059911@notchpeak1:fmt_env]$ spack install
+(base) [u6059911@notchpeak1:fmt_env]$ nohup spack install > spack_install_fmt_env-no-debug.log 2>&1 &
 ```
 
 ```bash
@@ -162,8 +168,8 @@ spack:
 ```
 
 ```bash
-(base) [u6059911@notchpeak1:fmt_env]$ spack concretize --force
-(base) [u6059911@notchpeak1:fmt_env]$ spack install
+(base) [u6059911@notchpeak1:fmt_env]$ nohup spack concretize --force > spack_concretize_fmt_env.log 2>&1 &
+(base) [u6059911@notchpeak1:fmt_env]$ nohup spack install > spack_install_fmt_env-debug.log 2>&1 &
 (base) [u6059911@notchpeak1:fmt_env]$ spack find -lv fmt
 ==> In environment fmt_env (1 root spec)
 [+] oi7yimm fmt@12.1.0 build_type=Debug
