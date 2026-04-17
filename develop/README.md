@@ -80,7 +80,17 @@ Attempting `install` with no `specs` defined yet in `spack.yaml`:
 ==> Error: Spec 'fmt' matches no installed packages.
 ```
 
-We verify that Spack only installs packages that appear in the `specs` list (the root of the dependency graph). Note that the `spack location -i fmt` output suggests there is no previus `fmt` installation, which is not true (there is already a normal build `fmt` installation based on `spack install`). Let's do this:
+We verify that Spack only installs packages that appear in the `specs` list (the root of the dependency graph).
+
+> If `specs: []`, so: no DAG, no packages associated with the environment, `spack find` returns nothing.
+
+> DAG: Directed Acyclic Graph. In Spack, a DAG is the full dependency graph of a package specification (`spec`), including all transitive dependencies. When `specs: []`, the DAG is an empty graph: no nodes, no dependencies, nothing to build. So the installation workflow under `spack develop` follow a `specs - DAG - build/install` workflow. Inside an environment, `spack find` only show nodes in the environment's DAG.
+
+> In `spack.yaml`, the `develop:` section only affects nodes already present in the DAG. If `fmt` is not in the DAG, `develop` has no effect.
+
+> Each DAG node is a **fully concretized `spec`**, such as `fmt@12.1.0 %gcc@8.5.0 build_type=Debug arch=linux-skylake_avx512`. Edges represent build, link and run dependencies. **DWARF information is generated per node in the DAG during compilation**, so no node, then no binary and no DWARF, and wrong node (e.g., `buildcache`), then wrong paths in DWARF. DAG is the dependecy graph of `specs`, it is the core internal structure Spack operates on, and everyting (build, install, debug info) depends on it.
+
+Note that the `spack location -i fmt` output suggests there is no previous `fmt` installation, which is not true (there is already a normal build `fmt` installation based on `spack install`). Let's do this:
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack env deactivate
@@ -97,8 +107,15 @@ ds5k4qo fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Debug cxxstd=11 
 We found a key property of Spack: installed packages are global (per Spack instance), while environments only define views over them. When an environment is active, Spack operates in environment scope, meaning:
 
 * Only packages in the environment’s concretized DAG are visible
-* Queries like spack find are filtered to the environment
+* Queries like `spack find` are filtered to the environment
 
+So Spack operates in global scope outside the environment (after `spack env deactivate`), it queries the full installation databese under `$SPACK_ROOT/opt/spack/`, so both `spack find -lv fmt` and `spack location -i /ds5k4qo` returns the previously installed package, regardless of any environment.
+
+> Spack separates `Installation database (global)` and `Environment view (scoped)`. So environments do not “contain” packages, they reference a subset of the global store via their DAG.
+
+> For debugging workflows, that distinction is critical. A package may be installed globally (with DWARF info) or invisible inside an environment. Debugging inside an environment requires that the package belongs to the environment DAG. Otherwise, `spack location` will fail even though binaries exists on disk.
+
+Getting back to `fmt_env` Spack environment:
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack env activate fmt_env
@@ -122,6 +139,27 @@ spack:
 (base) [u6059911@notchpeak1:fmt_env]$ nohup spack install > spack_install_fmt_env-no-debug.log 2>&1 &
 ```
 
+`spack add fmt@12.1.0` updates the `specs:` section on `spack.yaml` by adding the package (`fmt@12.1.0`). Therefore, `spack add` modifies the DAG roots. Since the `specs:` section defines the root node of the environment’s dependency graph (DAG), `fmt@12.1.0` becomes **elegible to concretization** and included in the environment's build plan. While:
+
+```bash
+  develop:
+    fmt:
+      spec: fmt@=12.1.0
+```
+
+Introduces a **source override**, which means that during concretization/build, Spack will use a local source tree instead of fetching a tarball. So the resulting build pipeline becomes `spec - DAG construction - source resolution (overriden by spack develop) - build from local source tree - install into prefix`. On another note:
+
+```bash
+concretizer:
+  unify: true
+```
+
+> `spack add` does NOT build anything (no concretization, compilation, or installation occurs yet). With just `spack add`, DAG is not yet concretized and installed packages are unchanged. It marks the environment as needing concretization (**dirty state:** the declared `specs` have changed, but the DAG has not been resolved yet).
+
+> `spack install` triggers `specs - concretization - DAG - build - install`. **Concretization** resolves compiler, dependencies, variants and architecture. **DAG creation** produces a fully specified graph. **Build + Install** compiles `fmt` and install into its prefix. If one also have the `develop:` section with `fmt`, then the `fmt` added via `spack add` will be built from the local source tree, not from a downloaded tarball. `spack add` adds a node to the **future** DAG.
+
+Enforces a single, globally consistent instance of `fmt` (and its dependencies) across the DAG. `spack install` concretizez the DAG, resolve dependecies, builds `fmt` (from the `develop` source` and installs into `$SPACK_ROOT/opt/spack/`. Let's see it:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack location -i fmt
 /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-nwdarroqz7al36bwfriq5ljk5nvt7ttm
@@ -135,6 +173,8 @@ nwdarro fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Release cxxstd=1
 ==> 0 concretized packages to be installed (show with `spack find -c`)
 ```
 
+At this point, the `fmt_env` environment has a non-empty DAG, where `fmt` is built from a controlled source tree (`develop`) and installed into a stable prefix associated with the hash `/nwdarro` (`/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-nwdarroqz7al36bwfriq5ljk5nvt7ttm`). However, since no debug variant (e.g., `build_type=Debug`) is specified, the build will likely be `Release` or `RelWithDebInfo`. Thus DWARF info may be absent. Let's look into it:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack location -i /nwdarro
 /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-nwdarroqz7al36bwfriq5ljk5nvt7ttm
@@ -143,6 +183,8 @@ nwdarro fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Release cxxstd=1
 (base) [u6059911@notchpeak1:fmt_env]$ find $(spack location -i /nwdarro) -name "*.a" -o -name "*.so"
 /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-nwdarroqz7al36bwfriq5ljk5nvt7ttm/lib64/libfmt.a
 ```
+
+We retrieve the installation prefix of the concretized `spec` and the build-time workspace staging directory, both identified by the `nwdarro` hash. The `lib64/libfmt.a` output confirms the package was installed in `Release` mode (no `libfmtd.a`).
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack add fmt@12.1.0 build_type=Debug
