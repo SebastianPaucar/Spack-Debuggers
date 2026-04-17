@@ -1,0 +1,24 @@
+==> Concretized 1 spec:
+ -   oi7yimm  fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Debug cxxstd=11 dev_path=/scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env/fmt generator=make platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  bhpvsgg      ^cmake@3.31.11~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  tbbhe4v          ^curl@8.18.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  xkkd5mo              ^nghttp2@1.67.1 build_system=autotools platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  4375kp7                  ^diffutils@3.12 build_system=autotools platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  vk7735v                      ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  kfnmztp              ^openssl@3.6.1~docs+shared build_system=generic certs=mozilla platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  bapfsen                  ^ca-certificates-mozilla@2025-08-12 build_system=generic platform=linux os=rocky8 target=skylake_avx512 
+[+]  5fb5exr                  ^perl@5.42.0+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  4y6cbrf                      ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches:=26090f4,b231fcc platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  liyd5kv                      ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  ui5mps7                      ^gdbm@1.26 build_system=autotools platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  d3ojejc                          ^readline@8.3 build_system=autotools patches:=21f0a03 platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  fe4l3b3              ^pkgconf@2.5.1 build_system=autotools platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+[+]  4jvzbzy          ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches:=7a351bc platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  5ydzxxi          ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=rocky8 target=skylake_avx512 %c,cxx=gcc@8.5.0
+[+]  7ixievn      ^compiler-wrapper@1.0 build_system=generic platform=linux os=rocky8 target=skylake_avx512 
+[e]  nvz3nps      ^gcc@8.5.0+binutils+bootstrap~graphite+libsanitizer~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=rocky8 target=x86_64 
+[+]  3auvped      ^gcc-runtime@8.5.0 build_system=generic platform=linux os=rocky8 target=skylake_avx512 
+[e]  vuczjrb      ^glibc@2.28 build_system=autotools platform=linux os=rocky8 target=x86_64 
+[+]  fwmpqge      ^gmake@4.4.1~guile build_system=generic platform=linux os=rocky8 target=skylake_avx512 %c=gcc@8.5.0
+
+==> Updating view at /scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env/.spack-env/view
