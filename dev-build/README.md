@@ -6,7 +6,7 @@ Let's start from my `/scratch` directory:
 (base) [u6059911@notchpeak1:~]$ cd /scratch/general/vast/u6059911/gsoc/gsoc_spack
 ```
 
-Since a custom build stage (/scratch/general/vast/u6059911/spack-stage) was set in `~/.spack/config,yaml`, we remove it and the existing `fmt` installation to restore the default configuration:
+Since a custom build stage (`/scratch/general/vast/u6059911/spack-stage`) was set in `~/.spack/config,yaml`, we remove it and the existing `fmt` installation to restore the default configuration:
 
 ```bash
 (base) [u6059911@notchpeak2:gsoc_spack]$ rm ~/.spack/config.yaml
