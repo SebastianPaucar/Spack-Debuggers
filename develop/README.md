@@ -184,7 +184,7 @@ At this point, the `fmt_env` environment has a non-empty DAG, where `fmt` is bui
 /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-nwdarroqz7al36bwfriq5ljk5nvt7ttm/lib64/libfmt.a
 ```
 
-We retrieve the installation prefix of the concretized `spec` and the build-time workspace staging directory, both identified by the `nwdarro` hash. The `lib64/libfmt.a` output confirms the package was installed in `Release` mode (no `libfmtd.a`).
+We retrieve the installation prefix of the concretized `spec` and the build-time workspace staging directory, both identified by the `nwdarro` hash. The `lib64/libfmt.a` output confirms the package was installed in `Release` mode (no `libfmtd.a`). Let's add the `Debug` mode to the `specs` list: 
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack add fmt@12.1.0 build_type=Debug
@@ -193,6 +193,14 @@ We retrieve the installation prefix of the concretized `spec` and the build-time
 ==> Error: Spack concretizer internal error. Please submit a bug report at https://github.com/spack/spack and include the command and environment if applicable.
     [fmt@12.1.0 build_type=Debug, fmt@12.1.0/nwdarroqz7al36bwfriq5ljk5nvt7ttm] is unsatisfiable. Couldn't concretize without changing the existing environment. If you are ok with changing it, try `spack concretize --force`. You could consider setting `concretizer:unify` to `when_possible` or `false` to allow multiple versions of some packages.
 ```
+
+That is due `spack add fmt@12.1.0 build_type=Debug` makes the system contain **two distinct `specs`**: `fmt@12.1.0` (pre-existing concretized instance) and `fmt@12.1.0 build_type=Debug` (the new abstract `spec`). These differ by a variant: `build_type = Release` versus `build_type = Debug`.
+
+> In Spack, a `spec` is uniquely defined by `(name, version, compiler, variants, architecture, dependencies)`. Thus `fmt@12.1.0 build_type=Debug` is not the same as `fmt@12.1.0 build_type=Release`. They correspond to different nodes in the dependency graph (DAG), each with a distinct hash.
+
+> `concretizer: unify: true` enforces all references to the same package in the DAG must resolve to a single, identical concretized `spec`. `∀ nodes n₁, n₂ ∈ DAG with name(fmt) ⇒ spec(n₁) = spec(n₂)`.
+
+The concretizer fails to unify the `build_type = Release` mode with the `build_type = Debug` mode of `fmt`, so the constraint system becomes unsastisfiable. Let's resolve this:
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ cat spack.yaml
@@ -229,6 +237,8 @@ spack:
       spec: fmt@=12.1.0
 ```
 
+It was just matter of removing the entry `fmt@12.1.0` in the `specs:` section, so now `spack.yaml` only contains `fmt@12.1.0 build_type=Debug`. Then:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ nohup spack concretize --force > spack_concretize_fmt_env.log 2>&1 &
 (base) [u6059911@notchpeak1:fmt_env]$ nohup spack install > spack_install_fmt_env-debug.log 2>&1 &
@@ -242,6 +252,14 @@ oi7yimm fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Debug cxxstd=11 
 ==> 0 concretized packages to be installed (show with `spack find -c`)
 ```
 
+Full re-concretization of the environment DAG is performed via `spack concretize --force`, and previous concretized `specs` (such as the `fmt` `Release` build) are discarded. Formally, the old DAG is invalidated and the new DAG is constructed from `specs + develop + variants`. This step resolves the earlier unsatisfiable constraint by removing conflicting nodes, and `spack install` operates on the **newly concretized DAG** using the `develop` source override (`dev_path=/scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env/fmt`, the local source tree).
+
+> Concretization defines the exact build graph; installation materializes it. Forcing re-concretization is required when spec identity (e.g., variants) changes. Forcing concretization followed by installation ensures that variant changes (e.g., `Debug` builds) propagate into a new, consistent DAG that is then fully materialized into debug-capable binaries.
+
+> Note that the unique hash of the concretized `spec` is `oi7yimm`. `build_type=Debug` confirms correct variant propagation.
+
+Now, the environment is fully realized: DAG = installed state. Let's check the installation pipeline followed:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ spack location -i /oi7yimm
 /scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-oi7yimml7gcetixavsek7muxighkfumh
@@ -251,6 +269,13 @@ oi7yimm fmt@12.1.0~ipo+pic~shared build_system=cmake build_type=Debug cxxstd=11 
 spack-build-01-cmake-out.txt  spack-build-03-install-out.txt  spack-build-env.txt  spack-build-out.txt
 spack-build-02-build-out.txt  spack-build-env-mods.txt        spack-build-oi7yimm  spack-configure-args.txt
 ```
+
+We find:
+
+* Install prefix (still under `$SPACK_ROOT/opt/spack/`): `/scratch/general/vast/u6059911/spack/opt/spack/linux-skylake_avx512/fmt-12.1.0-oi7yimml7gcetixavsek7muxighkfumh`
+* Stage directory (still under `/tmp/u6059911/spack-stage/`): `/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-oi7yimml7gcetixavsek7muxighkfumh`. Note that it was not deleted, it is persistent on disk. The associated out-of-source build tree `spack-build-oi7yimm/` is found: this is the actual compilation directory. 
+
+Let's query the DWARF metadata:
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ find $(spack location -i /oi7yimm) -name "*.a" -o -name "*.so"
@@ -263,12 +288,20 @@ spack-build-02-build-out.txt  spack-build-env-mods.txt        spack-build-oi7yim
     <12>   DW_AT_name        : (indirect string, offset: 0xda77): /scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env/fmt/src/os.cc
 ```
 
+This demonstrates a dual-origin mapping in DWARF debug information:
+
+* `DW_AT_comp_dir`: Spack stage build directory (`/tmp/u6059911/spack-stage/spack-stage-fmt-12.1.0-oi7yimml7gcetixavsek7muxighkfumh/spack-build-oi7yimm`). The exact current working directory (CWD) of the compiler during translation. This value is absolute, build-time specific, and tied to the staging lifecycle.
+* `DW_AT_name`: `develop` source tree (`dev_path = `/scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env/fmt/`). This corresponds to path of the source file passed to the compiler. Because `develop:` was used, Spack built from `dev_path`.
+
+The `dev_path`:
+
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ ls /scratch/general/vast/u6059911/spack/var/spack/environments/fmt_env/fmt/
 build-linux-rocky8-skylake_avx512-nwdarro  ChangeLog.md    CONTRIBUTING.md  doc-html        include  README.md  support
 build-linux-rocky8-skylake_avx512-oi7yimm  CMakeLists.txt  doc              fmt-12.1.0.zip  LICENSE  src        test
 (base) [u6059911@notchpeak1:fmt_env]$ rm fmt/build-linux-rocky8-skylake_avx512-nwdarro
 ```
+
 
 ```bash
 (base) [u6059911@notchpeak1:fmt_env]$ readelf --debug-dump=decodedline $(spack location -i /oi7yimm)/lib64/libfmtd.a | grep '/' | awk '!seen[$0]++'
