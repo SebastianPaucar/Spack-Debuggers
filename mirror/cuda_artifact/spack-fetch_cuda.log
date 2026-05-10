@@ -1,0 +1,597 @@
+==> [2026-05-09-18:26:18.158536, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/config.yaml
+==> [2026-05-09-18:26:18.193258, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/config.yaml
+==> [2026-05-09-18:26:18.193351, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/config.yaml
+==> [2026-05-09-18:26:18.193405, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:18.193462, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/config.yaml
+==> [2026-05-09-18:26:18.193939, 2586556] Reading config from file /uufs/chpc.utah.edu/common/home/u6059911/.spack/config.yaml
+==> [2026-05-09-18:26:18.195836, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/config.yaml
+==> [2026-05-09-18:26:18.248513, 2586556] Imported fetch from built-in commands
+==> [2026-05-09-18:26:18.249431, 2586556] Imported fetch from built-in commands
+==> [2026-05-09-18:26:18.250248, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/toolchains.yaml
+==> [2026-05-09-18:26:18.250608, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/toolchains.yaml
+==> [2026-05-09-18:26:18.250956, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/toolchains.yaml
+==> [2026-05-09-18:26:18.251092, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:18.251528, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/toolchains.yaml
+==> [2026-05-09-18:26:18.252179, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/toolchains.yaml
+==> [2026-05-09-18:26:18.252639, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/toolchains.yaml
+==> [2026-05-09-18:26:18.255016, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/concretizer.yaml
+==> [2026-05-09-18:26:18.282942, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/concretizer.yaml
+==> [2026-05-09-18:26:18.283492, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/concretizer.yaml
+==> [2026-05-09-18:26:18.283629, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:18.284112, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/concretizer.yaml
+==> [2026-05-09-18:26:18.284867, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/concretizer.yaml
+==> [2026-05-09-18:26:18.285332, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/concretizer.yaml
+==> [2026-05-09-18:26:18.287107, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/packages.yaml
+==> [2026-05-09-18:26:18.332978, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/packages.yaml
+==> [2026-05-09-18:26:18.333530, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/packages.yaml
+==> [2026-05-09-18:26:18.333654, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:18.334165, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/packages.yaml
+==> [2026-05-09-18:26:18.335941, 2586556] Reading config from file /uufs/chpc.utah.edu/common/home/u6059911/.spack/packages.yaml
+==> [2026-05-09-18:26:18.353296, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/packages.yaml
+==> [2026-05-09-18:26:18.354721, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/repos.yaml
+==> [2026-05-09-18:26:18.357384, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/repos.yaml
+==> [2026-05-09-18:26:18.357710, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/repos.yaml
+==> [2026-05-09-18:26:18.357757, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:18.358063, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/repos.yaml
+==> [2026-05-09-18:26:18.358519, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/repos.yaml
+==> [2026-05-09-18:26:18.358893, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/repos.yaml
+==> [2026-05-09-18:26:18.467900, 2586556] READ LOCK: /uufs/chpc.utah.edu/common/home/u6059911/.spack/package-repository.lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:18.469973, 2586556] read locking [0:0]: timeout 0.000ns
+==> [2026-05-09-18:26:18.470208, 2586556] READ LOCK: /uufs/chpc.utah.edu/common/home/u6059911/.spack/package-repository.lock[0:0] [Acquired at 18:26:18.470142] 
+==> [2026-05-09-18:26:18.473507, 2586556] READ LOCK: /uufs/chpc.utah.edu/common/home/u6059911/.spack/package-repository.lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:18.473588, 2586556] READ LOCK: /uufs/chpc.utah.edu/common/home/u6059911/.spack/package-repository.lock[0:0] [Released at 18:26:18.473564] 
+==> [2026-05-09-18:26:36.582099, 2586556] READ LOCK (key:providers/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[5711308587201785:1] [Acquiring] 
+==> [2026-05-09-18:26:36.584443, 2586556] read locking [5711308587201785:1]: timeout 120.000s
+==> [2026-05-09-18:26:36.584741, 2586556] READ LOCK (key:providers/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[5711308587201785:1] [Acquired at 18:26:36.584665] 
+==> [2026-05-09-18:26:36.605887, 2586556] READ LOCK (key:providers/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[5711308587201785:1] [Releasing] 
+==> [2026-05-09-18:26:36.605971, 2586556] READ LOCK (key:providers/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[5711308587201785:1] [Released at 18:26:36.605951] 
+==> [2026-05-09-18:26:36.606064, 2586556] READ LOCK (key:tags/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[2092900423549235097:1] [Acquiring] 
+==> [2026-05-09-18:26:36.606394, 2586556] read locking [2092900423549235097:1]: timeout 120.000s
+==> [2026-05-09-18:26:36.606447, 2586556] READ LOCK (key:tags/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[2092900423549235097:1] [Acquired at 18:26:36.606432] 
+==> [2026-05-09-18:26:36.610454, 2586556] READ LOCK (key:tags/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[2092900423549235097:1] [Releasing] 
+==> [2026-05-09-18:26:36.610519, 2586556] READ LOCK (key:tags/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[2092900423549235097:1] [Released at 18:26:36.610503] 
+==> [2026-05-09-18:26:36.610587, 2586556] READ LOCK (key:patches/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[6557099974686631055:1] [Acquiring] 
+==> [2026-05-09-18:26:36.610901, 2586556] read locking [6557099974686631055:1]: timeout 120.000s
+==> [2026-05-09-18:26:36.610949, 2586556] READ LOCK (key:patches/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[6557099974686631055:1] [Acquired at 18:26:36.610935] 
+==> [2026-05-09-18:26:36.628771, 2586556] READ LOCK (key:patches/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[6557099974686631055:1] [Releasing] 
+==> [2026-05-09-18:26:36.628857, 2586556] READ LOCK (key:patches/builtin-specfile_v5-index.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[6557099974686631055:1] [Released at 18:26:36.628836] 
+==> [2026-05-09-18:26:37.064301, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.064777, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.064845, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.064827] 
+==> [2026-05-09-18:26:37.069004, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.069078, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.069061] 
+==> [2026-05-09-18:26:37.073804, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.074388, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.074577, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.074519] 
+==> [2026-05-09-18:26:37.075476, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.075644, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.075592] 
+==> [2026-05-09-18:26:37.086273, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.086684, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.086759, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.086735] 
+==> [2026-05-09-18:26:37.087381, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.087452, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.087430] 
+==> [2026-05-09-18:26:37.093327, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.093671, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.093734, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.093714] 
+==> [2026-05-09-18:26:37.094502, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.094663, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.094612] 
+==> [2026-05-09-18:26:37.213580, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/upstreams.yaml
+==> [2026-05-09-18:26:37.213659, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/upstreams.yaml
+==> [2026-05-09-18:26:37.213712, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/upstreams.yaml
+==> [2026-05-09-18:26:37.213753, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:37.213799, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/upstreams.yaml
+==> [2026-05-09-18:26:37.213845, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/upstreams.yaml
+==> [2026-05-09-18:26:37.213889, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/upstreams.yaml
+==> [2026-05-09-18:26:37.214045, 2586556] DATABASE LOCK TIMEOUT: 60s
+==> [2026-05-09-18:26:37.214119, 2586556] PACKAGE LOCK TIMEOUT: No timeout
+==> [2026-05-09-18:26:37.246996, 2586556] DATABASE LOCK TIMEOUT: 60s
+==> [2026-05-09-18:26:37.247154, 2586556] PACKAGE LOCK TIMEOUT: No timeout
+==> [2026-05-09-18:26:37.247307, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.249714, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.249867, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.249822] 
+==> [2026-05-09-18:26:37.266481, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.266584, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.266558] 
+==> [2026-05-09-18:26:37.269826, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.270216, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.270306, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.270280] 
+==> [2026-05-09-18:26:37.271102, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.271185, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.271163] 
+==> [2026-05-09-18:26:37.271660, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.272016, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.272104, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.272080] 
+==> [2026-05-09-18:26:37.272916, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.273046, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.273009] 
+==> [2026-05-09-18:26:37.277278, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.277598, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.277656, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.277639] 
+==> [2026-05-09-18:26:37.278413, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.278467, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.278453] 
+==> [2026-05-09-18:26:37.279209, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.279511, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.279568, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.279552] 
+==> [2026-05-09-18:26:37.280134, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.280188, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.280174] 
+==> [2026-05-09-18:26:37.280577, 2586556] DATABASE LOCK TIMEOUT: 60s
+==> [2026-05-09-18:26:37.280641, 2586556] PACKAGE LOCK TIMEOUT: No timeout
+==> [2026-05-09-18:26:37.280704, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.280981, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.281030, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.281015] 
+==> [2026-05-09-18:26:37.292082, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.292155, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.292135] 
+==> [2026-05-09-18:26:37.292283, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.292582, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.292640, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.292622] 
+==> [2026-05-09-18:26:37.293461, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.293615, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.293567] 
+==> [2026-05-09-18:26:37.294830, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.295177, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.295349, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.295294] 
+==> [2026-05-09-18:26:37.296014, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.296082, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.296062] 
+==> [2026-05-09-18:26:37.297059, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.297357, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.297437, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.297401] 
+==> [2026-05-09-18:26:37.298013, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.298083, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.298064] 
+==> [2026-05-09-18:26:37.298324, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.298640, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.298796, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.298745] 
+==> [2026-05-09-18:26:37.299648, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.299733, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.299716] 
+==> [2026-05-09-18:26:37.300127, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.300411, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.300470, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:37.300451] 
+==> [2026-05-09-18:26:37.301019, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.301086, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:37.301068] 
+==> [2026-05-09-18:26:37.306458, 2586556] READ LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Acquiring] 
+==> [2026-05-09-18:26:37.308588, 2586556] read locking [2447260225841713294:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.308770, 2586556] READ LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Acquired at 18:26:37.308712] 
+==> [2026-05-09-18:26:37.310992, 2586556] READ LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Releasing] 
+==> [2026-05-09-18:26:37.311174, 2586556] READ LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Released at 18:26:37.311122] 
+==> [2026-05-09-18:26:37.312653, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/mirrors.yaml
+==> [2026-05-09-18:26:37.319372, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/mirrors.yaml
+==> [2026-05-09-18:26:37.319879, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/mirrors.yaml
+==> [2026-05-09-18:26:37.320014, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:37.320481, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/mirrors.yaml
+==> [2026-05-09-18:26:37.321006, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/mirrors.yaml
+==> [2026-05-09-18:26:37.321480, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/mirrors.yaml
+==> [2026-05-09-18:26:37.321669, 2586556] WRITE LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Acquiring] 
+==> [2026-05-09-18:26:37.322147, 2586556] write locking [2447260225841713294:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.322265, 2586556] WRITE LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Acquired at 18:26:37.322226] 
+==> [2026-05-09-18:26:37.331142, 2586556] WRITE LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Releasing] 
+==> [2026-05-09-18:26:37.331313, 2586556] WRITE LOCK (key:contents.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/indices/.lock[2447260225841713294:1] [Released at 18:26:37.331261] 
+==> [2026-05-09-18:26:37.458039, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/bootstrap.yaml
+==> [2026-05-09-18:26:37.458552, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/bootstrap.yaml
+==> [2026-05-09-18:26:37.460016, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/bootstrap.yaml
+==> [2026-05-09-18:26:37.469932, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:37.470606, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/bootstrap.yaml
+==> [2026-05-09-18:26:37.471467, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap.yaml
+==> [2026-05-09-18:26:37.472131, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/bootstrap.yaml
+==> [2026-05-09-18:26:37.473330, 2586556] [BOOTSTRAP CONFIG SCOPE] name=_builtin
+==> [2026-05-09-18:26:37.473979, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/bootstrap.yaml
+==> [2026-05-09-18:26:37.474080, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/bootstrap.yaml
+==> [2026-05-09-18:26:37.474576, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/bootstrap.yaml
+==> [2026-05-09-18:26:37.480325, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:37.480411, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/bootstrap.yaml
+==> [2026-05-09-18:26:37.480472, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap.yaml
+==> [2026-05-09-18:26:37.480522, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/bootstrap.yaml
+==> [2026-05-09-18:26:37.480692, 2586556] [BOOTSTRAP CONFIG SCOPE] name=defaults, path=/scratch/general/vast/u6059911/spack/etc/spack/defaults
+==> [2026-05-09-18:26:37.480729, 2586556] [BOOTSTRAP CONFIG SCOPE] name=bootstrap, path=/uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/config
+==> [2026-05-09-18:26:37.480806, 2586556] [CONFIGURATION: PUSH SCOPE]: <InternalConfigScope: _builtin>, priority=1
+==> [2026-05-09-18:26:37.481140, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/include.yaml
+==> [2026-05-09-18:26:37.483512, 2586556] Local base directory for linux is /scratch/general/vast/u6059911/spack/etc/spack/defaults
+==> [2026-05-09-18:26:37.483625, 2586556] Using working directory /scratch/general/vast/u6059911/spack/etc/spack/defaults as base for abspath
+==> [2026-05-09-18:26:37.483884, 2586556] Creating DirectoryConfigScope defaults:linux for '/scratch/general/vast/u6059911/spack/etc/spack/defaults/linux'
+==> [2026-05-09-18:26:37.483941, 2586556] Local base directory for base is /scratch/general/vast/u6059911/spack/etc/spack/defaults
+==> [2026-05-09-18:26:37.484020, 2586556] Using working directory /scratch/general/vast/u6059911/spack/etc/spack/defaults as base for abspath
+==> [2026-05-09-18:26:37.484254, 2586556] Creating DirectoryConfigScope defaults:base for '/scratch/general/vast/u6059911/spack/etc/spack/defaults/base'
+==> [2026-05-09-18:26:37.484341, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/include.yaml
+==> [2026-05-09-18:26:37.484381, 2586556] [CONFIGURATION: PUSH SCOPE]: <ConfigScope: defaults:base>, priority=1
+==> [2026-05-09-18:26:37.484447, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/include.yaml
+==> [2026-05-09-18:26:37.484482, 2586556] [CONFIGURATION: PUSH SCOPE]: <ConfigScope: defaults:linux>, priority=1
+==> [2026-05-09-18:26:37.484517, 2586556] [CONFIGURATION: PUSH SCOPE]: <ConfigScope: defaults>, priority=1
+==> [2026-05-09-18:26:37.487822, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/config/include.yaml
+==> [2026-05-09-18:26:37.487933, 2586556] [CONFIGURATION: PUSH SCOPE]: <ConfigScope: bootstrap>, priority=1
+==> [2026-05-09-18:26:37.488577, 2586556] [CONFIGURATION: PUSH SCOPE]: <InternalConfigScope: use-store-19a31610-daa4-49f7-b731-f453a1b149b3>, priority=None
+==> [2026-05-09-18:26:37.490516, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/config.yaml
+==> [2026-05-09-18:26:37.520439, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/config.yaml
+==> [2026-05-09-18:26:37.520519, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/config.yaml
+==> [2026-05-09-18:26:37.521885, 2586556] Reading config from file /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/config/config.yaml
+==> [2026-05-09-18:26:37.539900, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/upstreams.yaml
+==> [2026-05-09-18:26:37.539978, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/upstreams.yaml
+==> [2026-05-09-18:26:37.540039, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/upstreams.yaml
+==> [2026-05-09-18:26:37.540518, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/config/upstreams.yaml
+==> [2026-05-09-18:26:37.540926, 2586556] DATABASE LOCK TIMEOUT: 60s
+==> [2026-05-09-18:26:37.541112, 2586556] PACKAGE LOCK TIMEOUT: No timeout
+==> [2026-05-09-18:26:37.591697, 2586556] [CONFIGURATION: PUSH SCOPE]: <InternalConfigScope: disable_modules>, priority=None
+==> [2026-05-09-18:26:37.592205, 2586556] [CONFIGURATION: PUSH SCOPE]: <InternalConfigScope: overrides-0>, priority=None
+==> [2026-05-09-18:26:37.594876, 2586556] [BOOTSTRAP ROOT SPEC] clingo-bootstrap@spack+python platform=linux target=x86_64
+==> [2026-05-09-18:26:37.595004, 2586556] [BOOTSTRAP MODULE clingo] Try importing from Python
+==> [2026-05-09-18:26:37.595910, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/bootstrap.yaml
+==> [2026-05-09-18:26:37.596099, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/bootstrap.yaml
+==> [2026-05-09-18:26:37.596654, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/bootstrap.yaml
+==> [2026-05-09-18:26:37.642405, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.646748, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.646935, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquired at 18:26:37.646877] 
+==> [2026-05-09-18:26:37.657268, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.657407, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Released at 18:26:37.657368] 
+==> [2026-05-09-18:26:37.657628, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.658167, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.658284, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquired at 18:26:37.658248] 
+==> [2026-05-09-18:26:37.659211, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.659292, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Released at 18:26:37.659268] 
+==> [2026-05-09-18:26:37.659350, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.659713, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.659786, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquired at 18:26:37.659762] 
+==> [2026-05-09-18:26:37.660636, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.660713, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Released at 18:26:37.660690] 
+==> [2026-05-09-18:26:37.660779, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:37.661140, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:37.661212, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Acquired at 18:26:37.661189] 
+==> [2026-05-09-18:26:37.662121, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:37.662272, 2586556] READ LOCK (database): /uufs/chpc.utah.edu/common/home/u6059911/.spack/bootstrap/store/.spack-db/lock[0:0] [Released at 18:26:37.662227] 
+==> [2026-05-09-18:26:37.748463, 2586556] [BOOTSTRAP MODULE clingo] The installed spec "clingo-bootstrap@spack+python platform=linux target=x86_64 ^python@3.12/z5wzybmgi3x4g2hvcsmkrtuag7j7svd6" provides the "clingo" Python module
+==> [2026-05-09-18:26:37.748715, 2586556] [CONFIGURATION: REMOVE SCOPE]: <InternalConfigScope: overrides-0>
+==> [2026-05-09-18:26:37.748877, 2586556] [CONFIGURATION: REMOVE SCOPE]: <InternalConfigScope: disable_modules>
+==> [2026-05-09-18:26:37.749010, 2586556] [CONFIGURATION: REMOVE SCOPE]: <InternalConfigScope: use-store-19a31610-daa4-49f7-b731-f453a1b149b3>
+==> [2026-05-09-18:26:37.784521, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/packages.yaml
+==> [2026-05-09-18:26:37.845514, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/packages.yaml
+==> [2026-05-09-18:26:37.845597, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/packages.yaml
+==> [2026-05-09-18:26:37.845647, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:37.845704, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/packages.yaml
+==> [2026-05-09-18:26:37.846155, 2586556] Reading config from file /uufs/chpc.utah.edu/common/home/u6059911/.spack/packages.yaml
+==> [2026-05-09-18:26:37.859295, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/packages.yaml
+==> [2026-05-09-18:26:37.963853, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.964554, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.964746, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.964686] 
+==> [2026-05-09-18:26:37.965681, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.965852, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.965799] 
+==> [2026-05-09-18:26:37.966458, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.966860, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.966924, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.966904] 
+==> [2026-05-09-18:26:37.967412, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.967474, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.967456] 
+==> [2026-05-09-18:26:37.969251, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.969630, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.969695, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.969675] 
+==> [2026-05-09-18:26:37.970181, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.970243, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.970224] 
+==> [2026-05-09-18:26:37.970453, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.970843, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.970902, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.970883] 
+==> [2026-05-09-18:26:37.971424, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.971484, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.971466] 
+==> [2026-05-09-18:26:37.976876, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.977295, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.977358, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.977339] 
+==> [2026-05-09-18:26:37.977966, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.978026, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.978008] 
+==> [2026-05-09-18:26:37.978252, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.978672, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.978731, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.978712] 
+==> [2026-05-09-18:26:37.979163, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.979223, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.979204] 
+==> [2026-05-09-18:26:37.984320, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.984916, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.985102, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.985031] 
+==> [2026-05-09-18:26:37.985820, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.985978, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.985928] 
+==> [2026-05-09-18:26:37.986259, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:37.987007, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:37.987183, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:37.987130] 
+==> [2026-05-09-18:26:37.988001, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:37.988180, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:37.988124] 
+==> [2026-05-09-18:26:38.003699, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.004221, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.004287, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.004267] 
+==> [2026-05-09-18:26:38.005435, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.005497, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.005478] 
+==> [2026-05-09-18:26:38.005556, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.006711, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.006863, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.006812] 
+==> [2026-05-09-18:26:38.008346, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.008406, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.008388] 
+==> [2026-05-09-18:26:38.008459, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.008850, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.008905, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.008887] 
+==> [2026-05-09-18:26:38.010135, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.010285, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.010237] 
+==> [2026-05-09-18:26:38.010411, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.010742, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.010797, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.010779] 
+==> [2026-05-09-18:26:38.012739, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.012833, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.012803] 
+==> [2026-05-09-18:26:38.012920, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.013292, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.013440, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.013392] 
+==> [2026-05-09-18:26:38.014732, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.014826, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.014796] 
+==> [2026-05-09-18:26:38.014912, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.015512, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.015659, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.015611] 
+==> [2026-05-09-18:26:38.016718, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.016811, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.016783] 
+==> [2026-05-09-18:26:38.017069, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.018224, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.018319, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.018289] 
+==> [2026-05-09-18:26:38.019490, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.019586, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.019556] 
+==> [2026-05-09-18:26:38.019731, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.020786, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.020934, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.020886] 
+==> [2026-05-09-18:26:38.023029, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.023201, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.023152] 
+==> [2026-05-09-18:26:38.023336, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.024071, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.024217, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.024170] 
+==> [2026-05-09-18:26:38.025397, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.025502, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.025469] 
+==> [2026-05-09-18:26:38.025666, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.025993, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.026110, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.026075] 
+==> [2026-05-09-18:26:38.027520, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.027626, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.027593] 
+==> [2026-05-09-18:26:38.027723, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.028237, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.028384, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.028336] 
+==> [2026-05-09-18:26:38.029499, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.029607, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.029573] 
+==> [2026-05-09-18:26:38.029704, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.030179, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.030327, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.030279] 
+==> [2026-05-09-18:26:38.031531, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.031636, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.031603] 
+==> [2026-05-09-18:26:38.031732, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.032332, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.032482, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.032433] 
+==> [2026-05-09-18:26:38.033666, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.033736, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.033714] 
+==> [2026-05-09-18:26:38.033799, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:26:38.034073, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:26:38.034141, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:26:38.034119] 
+==> [2026-05-09-18:26:38.035384, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:26:38.035529, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:26:38.035483] 
+==> [2026-05-09-18:26:38.037041, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/concretizer.yaml
+==> [2026-05-09-18:26:38.056980, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/concretizer.yaml
+==> [2026-05-09-18:26:38.057067, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/concretizer.yaml
+==> [2026-05-09-18:26:38.057118, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:26:38.057175, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/concretizer.yaml
+==> [2026-05-09-18:26:38.057236, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/concretizer.yaml
+==> [2026-05-09-18:26:38.057291, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/concretizer.yaml
+==> [2026-05-09-18:26:38.061125, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:38.061489, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:38.061559, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:38.061537] 
+==> [2026-05-09-18:26:38.062093, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:38.062162, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:38.062143] 
+==> [2026-05-09-18:26:38.068601, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:38.070142, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:38.070324, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:38.070266] 
+==> [2026-05-09-18:26:38.071039, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:38.071112, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:38.071092] 
+==> [2026-05-09-18:26:38.079970, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:38.082327, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:38.082488, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:38.082440] 
+==> [2026-05-09-18:26:38.082973, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:38.083043, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:38.083013] 
+==> [2026-05-09-18:26:38.087257, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:38.087923, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:38.088098, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:38.088029] 
+==> [2026-05-09-18:26:38.088882, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:38.089019, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:38.088980] 
+==> [2026-05-09-18:26:38.389774, 2586556] [spack.solver.input_analysis] apple-libuuid is not for this platform
+==> [2026-05-09-18:26:38.766265, 2586556] [spack.solver.input_analysis] apple-clang is not for this platform
+==> [2026-05-09-18:26:38.803291, 2586556] [spack.solver.input_analysis] msvc is not for this platform
+==> [2026-05-09-18:26:41.247334, 2586556] [spack.solver.input_analysis] wgl is not for this platform
+==> [2026-05-09-18:26:41.255845, 2586556] [spack.solver.input_analysis] apple-gl is not for this platform
+==> [2026-05-09-18:26:41.372155, 2586556] /usr/bin/fi_info -l
+==> [2026-05-09-18:26:42.194991, 2586556] /usr/bin/fi_info --caps FI_HMEM_ROCR
+==> [2026-05-09-18:26:42.527218, 2586556] [spack.solver.input_analysis] msmpi is not for this platform
+==> [2026-05-09-18:26:44.436003, 2586556] [spack.solver.input_analysis] nvpl-blas is not for this platform
+==> [2026-05-09-18:26:44.444561, 2586556] [spack.solver.input_analysis] veclibfort is not for this platform
+==> [2026-05-09-18:26:44.521812, 2586556] [spack.solver.input_analysis] nvpl-lapack is not for this platform
+==> [2026-05-09-18:26:45.729353, 2586556] [spack.solver.input_analysis] apple-libunwind is not for this platform
+==> [2026-05-09-18:26:46.124839, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:46.125530, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:46.125608, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:46.125585] 
+==> [2026-05-09-18:26:46.126276, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:46.126344, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:46.126324] 
+==> [2026-05-09-18:26:46.128086, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:46.129746, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:46.129811, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:46.129791] 
+==> [2026-05-09-18:26:46.130435, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:46.130498, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:46.130479] 
+==> [2026-05-09-18:26:46.135886, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:46.136277, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:46.136340, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:46.136320] 
+==> [2026-05-09-18:26:46.137159, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:46.137221, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:46.137202] 
+==> [2026-05-09-18:26:46.142305, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquiring] 
+==> [2026-05-09-18:26:46.142631, 2586556] read locking [7442138095171684446:1]: timeout 120.000s
+==> [2026-05-09-18:26:46.142708, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Acquired at 18:26:46.142684] 
+==> [2026-05-09-18:26:46.143506, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Releasing] 
+==> [2026-05-09-18:26:46.143580, 2586556] READ LOCK (key:compilers/compilers.json): /uufs/chpc.utah.edu/common/home/u6059911/.spack/cache/.lock[7442138095171684446:1] [Released at 18:26:46.143557] 
+==> [2026-05-09-18:26:50.017082, 2586556] Starting concretizer
+==> [2026-05-09-18:27:02.606383, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), binutils, True)
+==> [2026-05-09-18:27:02.606481, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), bootstrap, True)
+==> [2026-05-09-18:27:02.606522, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), build_system, autotools)
+==> [2026-05-09-18:27:02.606559, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), build_type, RelWithDebInfo)
+==> [2026-05-09-18:27:02.606594, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), graphite, False)
+==> [2026-05-09-18:27:02.606628, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), languages, c)
+==> [2026-05-09-18:27:02.606662, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), languages, c++)
+==> [2026-05-09-18:27:02.606696, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), languages, fortran)
+==> [2026-05-09-18:27:02.606729, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), libsanitizer, True)
+==> [2026-05-09-18:27:02.606763, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), nvptx, False)
+==> [2026-05-09-18:27:02.606796, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), piclibs, False)
+==> [2026-05-09-18:27:02.606829, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), profiled, False)
+==> [2026-05-09-18:27:02.606863, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc'), strip, False)
+==> [2026-05-09-18:27:02.606897, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gcc-runtime'), build_system, generic)
+==> [2026-05-09-18:27:02.606933, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='glibc'), build_system, autotools)
+==> [2026-05-09-18:27:02.606968, 2586556] UNKNOWN SYMBOL: attr("compatible_runtime", NodeId(id='0', pkg='gmake'), gcc-runtime, 8.5.0:)
+==> [2026-05-09-18:27:02.607002, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='gmake'), compiler-wrapper, 7ixievny4roxtflayougfucpbfgq56f6)
+==> [2026-05-09-18:27:02.607037, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='gmake'), gcc, nvz3npss3zf3awapnzs3yimbotisgmvr)
+==> [2026-05-09-18:27:02.607077, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gmake'), build_system, generic)
+==> [2026-05-09-18:27:02.607111, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gmake'), guile, False)
+==> [2026-05-09-18:27:02.607146, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='gmake'), gcc, c)
+==> [2026-05-09-18:27:02.607181, 2586556] UNKNOWN SYMBOL: attr("compatible_runtime", NodeId(id='0', pkg='libiconv'), gcc-runtime, 8.5.0:)
+==> [2026-05-09-18:27:02.607214, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='libiconv'), compiler-wrapper, 7ixievny4roxtflayougfucpbfgq56f6)
+==> [2026-05-09-18:27:02.607248, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='libiconv'), gcc, nvz3npss3zf3awapnzs3yimbotisgmvr)
+==> [2026-05-09-18:27:02.607282, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='libiconv'), gmake, fwmpqge6ptk7dvn4fdufqpb67isvixe7)
+==> [2026-05-09-18:27:02.607316, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libiconv'), build_system, autotools)
+==> [2026-05-09-18:27:02.607350, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libiconv'), libs, shared)
+==> [2026-05-09-18:27:02.607383, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libiconv'), libs, static)
+==> [2026-05-09-18:27:02.607417, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='libiconv'), gcc, c)
+==> [2026-05-09-18:27:02.607450, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libxml2'), build_system, autotools)
+==> [2026-05-09-18:27:02.607483, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libxml2'), pic, True)
+==> [2026-05-09-18:27:02.607517, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libxml2'), python, False)
+==> [2026-05-09-18:27:02.607549, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libxml2'), shared, True)
+==> [2026-05-09-18:27:02.607583, 2586556] UNKNOWN SYMBOL: attr("compatible_runtime", NodeId(id='0', pkg='openssl'), gcc-runtime, 8.5.0:)
+==> [2026-05-09-18:27:02.607616, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='openssl'), ca-certificates-mozilla, bapfsenr2jg4kbjtgg342sxsgrl3b5a4)
+==> [2026-05-09-18:27:02.607650, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='openssl'), compiler-wrapper, 7ixievny4roxtflayougfucpbfgq56f6)
+==> [2026-05-09-18:27:02.607684, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='openssl'), gcc, nvz3npss3zf3awapnzs3yimbotisgmvr)
+==> [2026-05-09-18:27:02.607717, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='openssl'), gmake, fwmpqge6ptk7dvn4fdufqpb67isvixe7)
+==> [2026-05-09-18:27:02.607750, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='openssl'), perl, 5fb5exrdwdvarhzy6hokuoz7odzkj5h4)
+==> [2026-05-09-18:27:02.607783, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='openssl'), build_system, generic)
+==> [2026-05-09-18:27:02.607816, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='openssl'), certs, mozilla)
+==> [2026-05-09-18:27:02.607850, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='openssl'), docs, False)
+==> [2026-05-09-18:27:02.607882, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='openssl'), shared, True)
+==> [2026-05-09-18:27:02.607916, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='openssl'), gcc, c)
+==> [2026-05-09-18:27:02.607949, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='openssl'), gcc, cxx)
+==> [2026-05-09-18:27:02.607983, 2586556] UNKNOWN SYMBOL: attr("compatible_runtime", NodeId(id='0', pkg='pkgconf'), gcc-runtime, 8.5.0:)
+==> [2026-05-09-18:27:02.608016, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='pkgconf'), compiler-wrapper, 7ixievny4roxtflayougfucpbfgq56f6)
+==> [2026-05-09-18:27:02.608054, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='pkgconf'), gcc, nvz3npss3zf3awapnzs3yimbotisgmvr)
+==> [2026-05-09-18:27:02.608087, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='pkgconf'), gmake, fwmpqge6ptk7dvn4fdufqpb67isvixe7)
+==> [2026-05-09-18:27:02.608120, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='pkgconf'), build_system, autotools)
+==> [2026-05-09-18:27:02.608154, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='pkgconf'), gcc, c)
+==> [2026-05-09-18:27:02.608188, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='xz'), compiler-wrapper, 7ixievny4roxtflayougfucpbfgq56f6)
+==> [2026-05-09-18:27:02.608221, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='xz'), gmake, fwmpqge6ptk7dvn4fdufqpb67isvixe7)
+==> [2026-05-09-18:27:02.608255, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='xz'), llvm, k4nwhhuk32s6tvf72cgkexrxy7r2w5gn)
+==> [2026-05-09-18:27:02.608288, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='xz'), build_system, autotools)
+==> [2026-05-09-18:27:02.608321, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='xz'), libs, shared)
+==> [2026-05-09-18:27:02.608354, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='xz'), libs, static)
+==> [2026-05-09-18:27:02.608387, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='xz'), pic, False)
+==> [2026-05-09-18:27:02.608420, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='xz'), llvm, c)
+==> [2026-05-09-18:27:02.608454, 2586556] UNKNOWN SYMBOL: attr("compatible_runtime", NodeId(id='0', pkg='zlib-ng'), gcc-runtime, 8.5.0:)
+==> [2026-05-09-18:27:02.608487, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='zlib-ng'), compiler-wrapper, 7ixievny4roxtflayougfucpbfgq56f6)
+==> [2026-05-09-18:27:02.608521, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='zlib-ng'), gcc, nvz3npss3zf3awapnzs3yimbotisgmvr)
+==> [2026-05-09-18:27:02.608554, 2586556] UNKNOWN SYMBOL: attr("concrete_build_dependency", NodeId(id='0', pkg='zlib-ng'), gmake, fwmpqge6ptk7dvn4fdufqpb67isvixe7)
+==> [2026-05-09-18:27:02.608587, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='zlib-ng'), build_system, autotools)
+==> [2026-05-09-18:27:02.608620, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='zlib-ng'), compat, True)
+==> [2026-05-09-18:27:02.608653, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='zlib-ng'), new_strategies, True)
+==> [2026-05-09-18:27:02.608686, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='zlib-ng'), opt, True)
+==> [2026-05-09-18:27:02.608720, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='zlib-ng'), pic, True)
+==> [2026-05-09-18:27:02.608753, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='zlib-ng'), shared, True)
+==> [2026-05-09-18:27:02.608786, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='zlib-ng'), gcc, c)
+==> [2026-05-09-18:27:02.608820, 2586556] UNKNOWN SYMBOL: attr("virtual_on_build_edge", NodeId(id='0', pkg='zlib-ng'), gcc, cxx)
+==> [2026-05-09-18:27:02.608910, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='cuda'), allow-unsupported-compilers, False)
+==> [2026-05-09-18:27:02.608946, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='gzip'), build_system, autotools)
+==> [2026-05-09-18:27:02.608979, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='cuda'), build_system, generic)
+==> [2026-05-09-18:27:02.609012, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='cuda'), dev, False)
+==> [2026-05-09-18:27:02.609045, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='coreutils'), build_system, autotools)
+==> [2026-05-09-18:27:02.609084, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='coreutils'), gprefix, False)
+==> [2026-05-09-18:27:02.609117, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='compiler-wrapper'), build_system, generic)
+==> [2026-05-09-18:27:02.609382, 2586556] UNKNOWN SYMBOL: attr("variant_value", NodeId(id='0', pkg='libxml2'), http, False)
+==> [2026-05-09-18:27:02.609499, 2586556] UNKNOWN SYMBOL: attr("external", NodeId(id='0', pkg='gcc'))
+==> [2026-05-09-18:27:02.609533, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='gcc'))
+==> [2026-05-09-18:27:02.609565, 2586556] UNKNOWN SYMBOL: attr("external", NodeId(id='0', pkg='glibc'))
+==> [2026-05-09-18:27:02.609597, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='glibc'))
+==> [2026-05-09-18:27:02.609630, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='gmake'))
+==> [2026-05-09-18:27:02.609662, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='libiconv'))
+==> [2026-05-09-18:27:02.609694, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='openssl'))
+==> [2026-05-09-18:27:02.609727, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='pkgconf'))
+==> [2026-05-09-18:27:02.609759, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='xz'))
+==> [2026-05-09-18:27:02.609792, 2586556] UNKNOWN SYMBOL: attr("needs_libc", NodeId(id='0', pkg='zlib-ng'))
+==> [2026-05-09-18:27:02.609825, 2586556] UNKNOWN SYMBOL: attr("reused_virtual_node", NodeId(id='nvz3npss3zf3awapnzs3yimbotisgmvr', pkg='c'))
+==> [2026-05-09-18:27:02.609860, 2586556] UNKNOWN SYMBOL: attr("reused_virtual_node", NodeId(id='nvz3npss3zf3awapnzs3yimbotisgmvr', pkg='cxx'))
+==> [2026-05-09-18:27:02.609893, 2586556] UNKNOWN SYMBOL: attr("reused_virtual_node", NodeId(id='k4nwhhuk32s6tvf72cgkexrxy7r2w5gn', pkg='c'))
+==> [2026-05-09-18:27:02.724705, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.725271, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.725339, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.725322] 
+==> [2026-05-09-18:27:02.726534, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.726592, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.726577] 
+==> [2026-05-09-18:27:02.726631, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.726896, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.726939, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.726926] 
+==> [2026-05-09-18:27:02.727712, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.727763, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.727750] 
+==> [2026-05-09-18:27:02.727798, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.728066, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.728109, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.728097] 
+==> [2026-05-09-18:27:02.729984, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.730038, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.730023] 
+==> [2026-05-09-18:27:02.730081, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.730354, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.730396, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.730383] 
+==> [2026-05-09-18:27:02.732347, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.732403, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.732388] 
+==> [2026-05-09-18:27:02.732439, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.732671, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.732714, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.732701] 
+==> [2026-05-09-18:27:02.737267, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.737335, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.737317] 
+==> [2026-05-09-18:27:02.737378, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.737686, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.737736, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.737721] 
+==> [2026-05-09-18:27:02.739747, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.739810, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.739794] 
+==> [2026-05-09-18:27:02.739852, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.740113, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.740165, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.740149] 
+==> [2026-05-09-18:27:02.742206, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.742269, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.742252] 
+==> [2026-05-09-18:27:02.742311, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.742588, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.742637, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.742623] 
+==> [2026-05-09-18:27:02.744541, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.744602, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.744585] 
+==> [2026-05-09-18:27:02.744643, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.744927, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.744977, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.744962] 
+==> [2026-05-09-18:27:02.745828, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.745884, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.745869] 
+==> [2026-05-09-18:27:02.745924, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.746169, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.746219, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.746204] 
+==> [2026-05-09-18:27:02.751907, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.751989, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.751967] 
+==> [2026-05-09-18:27:02.752041, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.752339, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.752402, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.752383] 
+==> [2026-05-09-18:27:02.763294, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.763403, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.763372] 
+==> [2026-05-09-18:27:02.763477, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.763834, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.763918, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.763892] 
+==> [2026-05-09-18:27:02.765663, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.765796, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.765757] 
+==> [2026-05-09-18:27:02.765890, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.766273, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.766384, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.766360] 
+==> [2026-05-09-18:27:02.768981, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.769130, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.769089] 
+==> [2026-05-09-18:27:02.769227, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquiring] 
+==> [2026-05-09-18:27:02.769544, 2586556] read locking [0:0]: timeout 60.000s
+==> [2026-05-09-18:27:02.769659, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Acquired at 18:27:02.769624] 
+==> [2026-05-09-18:27:02.774469, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Releasing] 
+==> [2026-05-09-18:27:02.774612, 2586556] READ LOCK (database): /scratch/general/vast/u6059911/spack/opt/spack/.spack-db/lock[0:0] [Released at 18:27:02.774571] 
+==> [2026-05-09-18:27:02.942685, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/config.yaml
+==> [2026-05-09-18:27:02.976983, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/config.yaml
+==> [2026-05-09-18:27:02.977108, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/config.yaml
+==> [2026-05-09-18:27:02.977170, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:27:02.977238, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/config.yaml
+==> [2026-05-09-18:27:02.991146, 2586556] Reading config from file /uufs/chpc.utah.edu/common/home/u6059911/.spack/config.yaml
+==> [2026-05-09-18:27:02.996681, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/config.yaml
+==> [2026-05-09-18:27:02.997433, 2586556] Reading config from file /scratch/general/vast/u6059911/spack/etc/spack/defaults/base/mirrors.yaml
+==> [2026-05-09-18:27:03.000467, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/linux/mirrors.yaml
+==> [2026-05-09-18:27:03.000581, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/defaults/mirrors.yaml
+==> [2026-05-09-18:27:03.000641, 2586556] Attempting to read from missing scope: <ConfigScope: system> at /etc/spack
+==> [2026-05-09-18:27:03.000707, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/site/mirrors.yaml
+==> [2026-05-09-18:27:03.000777, 2586556] Skipping nonexistent config path /uufs/chpc.utah.edu/common/home/u6059911/.spack/mirrors.yaml
+==> [2026-05-09-18:27:03.000838, 2586556] Skipping nonexistent config path /scratch/general/vast/u6059911/spack/etc/spack/mirrors.yaml
+==> [2026-05-09-18:27:03.012421, 2586556] WRITE LOCK (spack-stage-cuda-12.9.1-obbkqgpuhmf2zqxzigd5hxjie5up7qhn): /scratch/general/vast/u6059911/spack-stage/.lock[1946153722729912156:1] [Acquiring] 
+==> [2026-05-09-18:27:03.016932, 2586556] write locking [1946153722729912156:1]: timeout 60.000s
+==> [2026-05-09-18:27:03.017111, 2586556] WRITE LOCK (spack-stage-cuda-12.9.1-obbkqgpuhmf2zqxzigd5hxjie5up7qhn): /scratch/general/vast/u6059911/spack-stage/.lock[1946153722729912156:1] [Acquired at 18:27:03.017074] 
+==> [2026-05-09-18:27:03.025849, 2586556] certs: relative path not allowed: $SSL_CERT_FILE
+    [ 42%]    2.46 GB @   37.5 MB/s
+    [100%]    5.86 GB @   38.0 MB/s
+==> [2026-05-09-18:30:41.323505, 2586556] WRITE LOCK (spack-stage-cuda-12.9.1-obbkqgpuhmf2zqxzigd5hxjie5up7qhn): /scratch/general/vast/u6059911/spack-stage/.lock[1946153722729912156:1] [Releasing] 
+==> [2026-05-09-18:30:41.330612, 2586556] WRITE LOCK (spack-stage-cuda-12.9.1-obbkqgpuhmf2zqxzigd5hxjie5up7qhn): /scratch/general/vast/u6059911/spack-stage/.lock[1946153722729912156:1] [Released at 18:30:41.330532] 
